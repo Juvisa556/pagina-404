@@ -1,0 +1,60 @@
+
+.title {
+    font-size: small;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 375px;
+    margin-right: 50px;
+    height: auto;
+}
+
+#text {
+    width: 50rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+.text1 { 
+    font-size: 27px;
+
+}
+
+.boton {
+    background-color: #333333;
+    font-size: 30px; color: white; 
+    padding: 16px;   
+}
+
+.estructura-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 768px) { 
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+}
+    
+
+
+
+
+
+    
+
+    
